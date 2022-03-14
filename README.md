@@ -1,2 +1,0 @@
-# Moderna
-template
