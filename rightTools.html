@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Privacy Made Plain</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,700,700i&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Moderna - v4.8.0
+  * Template URL: https://bootstrapmade.com/free-bootstrap-template-corporate-moderna/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center">
+    <div class="container d-flex justify-content-between align-items-center">
+
+      <div class="logo">
+        <h1 class="text-light"><a href="index.html"><span>Privacy Made Plain</span></a></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      </div>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li class="dropdown"><a href=#>Why should I care?<i class="bi bi-chevron-down"></i></a>            
+            <ul>
+              <li class="dropdown"><a href= "phyVsDig.html"><span>Physical vs Digital Privacy</span><i class="bi"></i></a>
+              <li class="dropdown"><a href= "phyVsDig.html#conversation"><span>A Short Dialogue</span><i class="bi"></i></a>
+              <li class="dropdown"><a href="#"><span>3 Danger Groups</span><i class="bi bi-chevron-right"></i></a>
+              <ul class="dropdown-active">
+                <li>
+                  <a href = "maliciousIndividuals.html">Malicious Individuals</a>
+                </li>
+                <li>
+                  <a href = "governmentAgencies.html">Government Agencies</a>
+                </li>
+                <li>
+                  <a href = "privateCorporations.html">Private Corporations</a>
+                </li>
+              </ul>
+            </ul>
+          </li>
+          <li class="active dropdown"><a class="active" href="#"><span>The Guide</span><i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li class="dropdown"><a href="rightMindset.html"><span>The Right Mindset</span><i class="bi"></i></a>
+              <li class="dropdown"><a href="rightTools.html"><span>The Right Tools</span><i class="bi"></i></a>
+              <li class="dropdown"><a href="rightPractices.html"><span>The Right Practices</span><i class="bi"></i></a>
+            </ul>
+          </li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="blog.html">Updates</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <br><br><br><br>
+
+    <!-- ======= Features Section ======= -->
+    <section class="features">
+        <div class="container">
+  
+          <div class="section-title">
+            <h2>The Right Tools</h2>
+            <div class="row" data-aos="fade-up">
+            <ul>
+            <!--
+              How the code is formatted:
+              I used the DOM to input the amount of paragraphs. Each paragraph is inputted into a variable and put into the DOM with innerHTML.
+              Then I created a boolean to display and hide the chuncks of source code that would be displayed once the function is called.
+              The styles are mostly written as style tags in html 
+            -->
+              <!--Search Engine Start-->
+              <li class="dropdown" id="searchEngineIcon" onclick="dropdown1Show()"><u>Search Engine (Click to Expand)</u><i id = "SEicon" class="bi bi-chevron-down"></i></li>
+              <script>
+                let showTrue = false;
+
+                function dropdown1Show()
+                {
+                  let SEparagraph1 = "Search engines are the gateways to rest of the content out on the internet. The most common search engines that are used are Google Chrome, Safari, Firefox, etc. However, what is not realized as we type our questions into the search bar is that it is all recorded in order to create a portfolio of who we are.";
+                  let SEparagraph2 = "On a glance, it doesn't seem like it is a big deal. We think that Google is a one way street, all that happens it I ask a question and I get an answer.Unfortunately, it is actually a two-way street because all this time, Google is building that portfolio of you we are and it's possible that your search engine knows more about you than you do. Your search engine can know if you're depressed, if you're upset, if you'r feeling vulnerable, if you're in a financially precarious position. Search engines keep track of everything you search and in turn, take the pieces of informations they know about you and sell it to other companies so they can more effectively market towards you.";
+                  let SEparagraph3 = "This can all be easily fixed through the use of privacy-respecting search engines other. Some of these search engine includes DuckDuckGo and Start page. While it seems like the quality of your search engine will go down should you switch to another lesser known search engine, the results are actually the same if not better. Start page buys results from Google and other major search engines, giving it just as much search results as all the other major search engines. Here is the experience of someone who switched to using DuckDuckGo.“I was trying to solve a programming exam. I was searching and searching on DuckDuckGo and I couldn’t find a suitable solution.";
+                  let SEparagraph4 = "So I gave up and went on Google thinking Google will definitely have the answer to this question I was stuck on. However, all I found on Google were the same exact results I found while searching on DuckDuckGo. Needless to say, I didn’t finish my programming exam, yet this experience let me know that there really isn’t any benefits in using Google. I was able to retain my privacy using DuckDuckGo and get all the same results as I would on Google, so it’s definitely a win-win situation if you decide to switch to using privacy-respecting search engines!”"
+
+                  let SEoutput = SEparagraph1 + '<br><br><br>' + SEparagraph2  + '<br>';
+                  let SEoutput2 = SEparagraph3 + '<br><br><br>' + SEparagraph4;
+
+                  document.getElementById("searchEngine").innerHTML = SEoutput;
+                  document.getElementById("searchEngine2").innerHTML = SEoutput2;
+                  document.getElementById("SEtext").innerHTML = "Learn About Search Engines: "
+                  document.getElementById("abovetext").innerHTML = "Here is a tool to improve Search Engine Privacy:"
+
+                  if (showTrue === true)
+                  {
+                    document.getElementById("searchEngine").style.display = "none";
+                    document.getElementById("searchEngine2").style.display = "none";
+                    document.getElementById("SEtext").style.display = "none";
+                    document.getElementById("abovetext").style.display = "none";
+                    document.getElementById("SEvideo").src = "";
+                    document.getElementById("DuckDuckGo").src = "";
+                    showTrue = false;
+                    document.getElementById("se").className = "row height"
+                    document.getElementById("SEicon").className = "bi bi-chevron-down";
+                  } 
+                  else 
+                  {
+                    document.getElementById("searchEngine").style.display = "block";
+                    document.getElementById("searchEngine2").style.display = "block";
+                    document.getElementById("abovetext").style.display = "block";
+                    document.getElementById("SEtext").style.display = "block";
+
+                    document.getElementById("se").className = "row"
+                    document.getElementById("SEvideo").src = "https://www.youtube.com/embed/5Q2Pc-e-8Qc";
+                    document.getElementById("DuckDuckGo").src= "assets/img/DuckDuckGo.png";
+                    showTrue = true;
+                    document.getElementById("SEicon").className = "bi bi-chevron-up";
+                  }
+                }
+              </script>
+              <div class="row height" id="se">
+                <div class="col-md-5" id="headerDiv1">
+                  <p id="SEtext" style="padding-top: 10%"></p>
+                  <iframe width="560" height="315" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 2px; padding-top: 10%; padding-right: 8%" id="SEvideo"></iframe>
+                  <!-- <img src="" id="searchEngineImage" class="img-fluid" alt="" style="border-radius: 2px; padding:10px 0;;"> -->
+                </div>
+                <div class="col-md-7 pt-4" style="margin-bottom:7%" id="SEP">
+                  <p id="searchEngine"></p>
+                </div>
+                <div>
+                  <p id="searchEngine2"></p>
+                </div>
+                <div style="margin-top: 3%">
+                  <p id="abovetext"></p>
+                  <img src="" id="DuckDuckGo" style="border-radius: 8px; width:20%; padding-top:5%; margin-bottom:5%">
+                </div>
+              </div>
+              <!--Search Engine Ends-->
+
+              <!--Password Manager Starts-->
+              <li class="dropdown" onclick="dropdown2()" id="passwordManagerIcon"><u>Password Managaer (Click to Expand)</u><i id="PMicon" class="bi bi-chevron-down"></i></li>
+              <script>
+                let PMshowTrue = false;
+
+                function dropdown2()
+                {
+                  let PMparagraph1 = "A password manager is very a very good tool to use because this password systems that we've developed the password system, it's it has its flaws. I mean, it's good for what it is. But we as humans, we're not very good at running around and memorizing a variety of passwords and keeping track of which password is used for which account in that kind of thing";
+                  let PMparagraph2 = "Chess.com, same exact thing MasterPass name. This isn't stored in any cloud. It's just whenever you want to log in to chase you. You know, you put in the master password once put in chase dot com into your calculator and it produces it produces the password you want, and then when you want to log in to Apple, you put in Apple.com, it produces the password that you that you want. So I think this is very strong. It's not stored anywhere. It's just a calculator.";
+
+                  let PMoutput = PMparagraph1 + '<br><br><br>' + PMparagraph2;
+                  
+                  document.getElementById("passwordManager").innerHTML = PMoutput;
+                  document.getElementById("PMvideoText").innerHTML = "Learn About Password Managers";
+                  document.getElementById("abovetext2").innerHTML = "Here is a tool to improve Password Manager Privacy:"
+
+                  if (PMshowTrue === true)
+                  {
+                    document.getElementById("passwordManager").style.display = "none";
+                    document.getElementById("PMvideoText").style.display = "none";
+                    document.getElementById("abovetext2").style.display = "none";
+                    document.getElementById("PMvideo").src = "";
+                    document.getElementById("keypass").src = "";
+                    document.getElementById("bitwarden").src = "";
+                    PMshowTrue = false;
+                    document.getElementById("pm").className = "row height"
+                    document.getElementById("PMicon").className = "bi bi-chevron-down";
+                  } 
+                  else 
+                  {
+                    document.getElementById("passwordManager").style.display = "block";
+                    document.getElementById("PMvideoText").style.display = "block"
+                    document.getElementById("abovetext2").style.display = "block";
+                    document.getElementById("PMvideo").src = "https://www.youtube.com/embed/cbqvxDTLMps";
+                    document.getElementById("keypass").src = "assets/img/keepass.png";
+                    document.getElementById("bitwarden").src = "assets/img/bitwarden.png";
+                    PMshowTrue = true;
+                    document.getElementById("pm").className = "row"
+                    document.getElementById("PMicon").className = "bi bi-chevron-up";
+                  }
+                }
+              </script>
+              <div class="row height" id="pm">
+                <div class="col-md-5" id="headerDiv1">
+                  <p id="PMvideoText" style="padding-top: 10%"></p>
+                  <iframe id="PMvideo" width="560" height="315" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" style="border-radius: 2px; padding-top: 10%; padding-right: 8%" allowfullscreen></iframe>
+                </div>
+                <div class="col-md-7 pt-5" id="PSP">
+                  <p id="passwordManager"></p>
+                </div>
+                <div>
+                  <p id="abovetext2" style="margin-top: 5%"></p>
+                  <img id="keypass" src="" style="border-radius: 8px; width:20%; padding-top:5%; margin-bottom:5%">
+                  <img id="bitwarden" src="" style="border-radius: 8px; width:15%; padding-top:5%; margin-bottom:5%">
+                </div>
+              </div>
+              <!--Password Manager Ends-->
+
+              <!--Instant Messaging Starts-->
+              <li class="dropdown" id="instantMessagingIcon" onclick="dropdown3Show()"><u>Instant Messaging (Click to Expand)</u><i id = "IMicon" class="bi bi-chevron-down"></i></li>
+              <script>
+                let IMshowTrue = false;
+
+                function dropdown3Show()
+                {
+                  let IMparagraph1 = "The wolves stopped in their tracks, sizing up the mother and her cubs. It had been over a week since their last meal and they were getting desperate. The cubs would make a good meal, but there were high risks taking on the mother Grizzly. A decision had to be made and the wrong choice could signal the end of the pack.";
+                  let IMparagraph2 = "According to the caption on the bronze marker placed by the Multnomah Chapter of the Daughters of the American Revolution on May 12, 1939, “College Hall (is) the oldest building in continuous use for Educational purposes west of the Rocky Mountains. Here were educated men and women who have won recognition throughout the world in all the learned professions.”";
+                  let IMparagraph3 = "It was a concerning development that he couldn't get out of his mind. He'd had many friends throughout his early years and had fond memories of playing with them, but he couldn't understand how it had all stopped. There was some point as he grew up that he played with each of his friends for the very last time, and he had no idea that it would be the last.";
+                  //let SEparagraph4 = "So I gave up and went on Google thinking Google will definitely have the answer to this question I was stuck on. However, all I found on Google were the same exact results I found while searching on DuckDuckGo. Needless to say, I didn’t finish my programming exam, yet this experience let me know that there really isn’t any benefits in using Google. I was able to retain my privacy using DuckDuckGo and get all the same results as I would on Google, so it’s definitely a win-win situation if you decide to switch to using privacy-respecting search engines!”"
+
+                  let IMoutput = IMparagraph1 + '<br><br><br>' + IMparagraph2  + '<br>';
+                  let IMoutput2 = IMparagraph3;
+
+                  document.getElementById("instantMessaging").innerHTML = IMoutput;
+                  document.getElementById("instantMessaging2").innerHTML = IMoutput2;
+                  document.getElementById("IMtext").innerHTML = "Learn About Instant Messaging: "
+                  document.getElementById("abovetext3").innerHTML = "Here is a tool to improve Instant Messaging Privacy:"
+
+                  if (IMshowTrue === true)
+                  {
+                    document.getElementById("instantMessaging").style.display = "none";
+                    document.getElementById("instantMessaging2").style.display = "none";
+                    document.getElementById("IMtext").style.display = "none";
+                    document.getElementById("abovetext3").style.display = "none";
+                    document.getElementById("IMvideo").src = "";
+                    document.getElementById("signal").src = "";
+                    document.getElementById("wireMessenger").src = "";
+                    IMshowTrue = false;
+                    document.getElementById("im").className = "row height"
+                    document.getElementById("IMicon").className = "bi bi-chevron-down";
+                  } 
+                  else 
+                  {
+                    document.getElementById("instantMessaging").style.display = "block";
+                    document.getElementById("instantMessaging2").style.display = "block";
+                    document.getElementById("abovetext3").style.display = "block";
+                    document.getElementById("IMtext").style.display = "block";
+                    document.getElementById("im").className = "row"
+                    document.getElementById("IMvideo").src = "https://www.youtube.com/embed/Eth_YQg7ERc";
+                    document.getElementById("signal").src= "assets/img/signal.png";
+                    document.getElementById("wireMessenger").src = "assets/img/wireMessaging.png"
+                    IMshowTrue = true;
+                    document.getElementById("IMicon").className = "bi bi-chevron-up";
+                  }
+                }
+              </script>
+              <div class="row height" id="im">
+                <div class="col-md-5" id="headerDiv1">
+                  <p id="IMtext" style="padding-top: 15%"></p>
+                  <iframe id="IMvideo" width="560" height="315" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" style="border-radius: 2px; padding-top: 10%; padding-right: 8%; padding-left: 4%" allowfullscreen></iframe>
+                </div>
+                <div class="col-md-7 pt-4" style="margin-bottom:7%" id="SEP">
+                  <p id="instantMessaging" style="padding-top: 8%"></p>
+                </div>
+                <div>
+                  <p id="instantMessaging2" style="margin-top:2%"></p>
+                </div>
+                <div style="margin-top: 3%">
+                  <p id="abovetext3"></p>
+                  <img src="" id="signal" style="border-radius: 8px; width:20%; padding-top:5%; margin-bottom:5%">
+                  <img src="" id="wireMessenger" style="border-radius: 8px; width:20%; padding-top:5%; margin-bottom:5%">
+                </div>
+              </div>
+              <!--Instant Messaging Ends-->
+
+              <!--VPN Starts-->
+              <li class="dropdown" id="VPNIcon" onclick="dropdown4Show()"><u>VPN (Click to Expand)</u><i id = "VPNicon" class="bi bi-chevron-down"></i></li>
+              <script>
+                let VPNshowTrue = false;
+
+                function dropdown4Show()
+                {
+                  let VPNparagraph1 = "'It doesn't take much to touch someone's heart,' Daisy said with a smile on her face. 'It's often just the little things you do that can change a person's day for the better.' Daisy truly believed this to be the way the world worked, but she didn't understand that she was merely a robot that had been programmed to believe this.";
+                  let VPNparagraph2 = "Housework could be everyone's work, not just “women's work”. Why do women enable men to act oblivious to cleaning, grocery shopping, pet feeding, etc? Somehow when men live alone they figure out how to do all of those things all on their own. My friend’s husband claimed he didn’t know that sheets should be washed more than once a season. He said he didn’t know one had to clean toilets. He assumed that since you flush toilets they clean themselves. She tried to get him to help but he did an awful job so she let him off the hook. Wouldn’t it be better if she spent the time and energy to get him to do it right instead of letting him claim he is “just bad at it”. My sons were raised to clean toilets and change their own sheets. Hopefully, in their future homes, the housework will be equally divided.";
+                  let VPNparagraph3 = "It really shouldn't have mattered to Betty. That's what she kept trying to convince herself even if she knew it mattered to Betty more than practically anything else. Why was she trying to convince herself otherwise? As she stepped forward to knock on Betty's door, she still didn't have a convincing answer to this question that she'd been asking herself for more than two years now.";
+                  //let SEparagraph4 = "So I gave up and went on Google thinking Google will definitely have the answer to this question I was stuck on. However, all I found on Google were the same exact results I found while searching on DuckDuckGo. Needless to say, I didn’t finish my programming exam, yet this experience let me know that there really isn’t any benefits in using Google. I was able to retain my privacy using DuckDuckGo and get all the same results as I would on Google, so it’s definitely a win-win situation if you decide to switch to using privacy-respecting search engines!”"
+
+                  let VPNoutput = VPNparagraph1 + '<br><br><br>' + VPNparagraph2  + '<br>';
+                  let VPNoutput2 = VPNparagraph3;
+
+                  document.getElementById("vpnParagraph").innerHTML = VPNoutput;
+                  document.getElementById("vpnParagraph2").innerHTML = VPNoutput2;
+                  document.getElementById("VPNtext").innerHTML = "Learn About Instant Messaging: "
+                  document.getElementById("abovetext4").innerHTML = "Here are some tools to improve Instant Messaging Privacy:"
+
+                  if (VPNshowTrue === true)
+                  {
+                    document.getElementById("vpnParagraph").style.display = "none";
+                    document.getElementById("vpnParagraph2").style.display = "none";
+                    document.getElementById("VPNtext").style.display = "none";
+                    document.getElementById("abovetext4").style.display = "none";
+                    document.getElementById("VPNvideo").src = "";
+                    document.getElementById("mullvad").src = "";
+                    document.getElementById("proton").src = "";
+                    VPNshowTrue = false;
+                    document.getElementById("vpn").className = "row height"
+                    document.getElementById("VPNicon").className = "bi bi-chevron-down";
+                  } 
+                  else 
+                  {
+                    document.getElementById("vpnParagraph").style.display = "block";
+                    document.getElementById("vpnParagraph2").style.display = "block";
+                    document.getElementById("abovetext4").style.display = "block";
+                    document.getElementById("VPNtext").style.display = "block";
+                    document.getElementById("vpn").className = "row"
+                    document.getElementById("VPNvideo").src = "https://www.youtube.com/embed/WPl10ZrhCtk";
+                    document.getElementById("mullvad").src= "assets/img/mullvad.png";
+                    document.getElementById("proton").src = "assets/img/proton.png"
+                    VPNshowTrue = true;
+                    document.getElementById("VPNicon").className = "bi bi-chevron-up";
+                  }
+                }
+              </script>
+              <div class="row height" id="vpn">
+                <div class="col-md-5" id="headerDiv1">
+                  <p id="VPNtext" style="padding-top: 15%"></p>
+                  <iframe id="VPNvideo" width="560" height="315" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" style="border-radius: 2px; padding-top: 10%; padding-right: 8%; padding-left: 4%" allowfullscreen></iframe>
+                </div>
+                <div class="col-md-7 pt-4" style="margin-bottom:7%" id="SEP">
+                  <p id="vpnParagraph" style="padding-top: 8%"></p>
+                </div>
+                <div>
+                  <p id="vpnParagraph2"></p>
+                </div>
+                <div style="margin-top: 3%">
+                  <p id="abovetext4"></p>
+                  <img src="" id="mullvad" style="border-radius: 8px; width:20%; padding-top:5%; margin-bottom:5%; padding-right:5%">
+                  <img src="" id="proton" style="border-radius: 8px; width:20%; padding-top:5%; margin-bottom:5%">
+                </div>
+              </div>
+              <!--VPN Ends-->
+            </ul>
+            <br>
+            </div>
+          </div>
+      </section>
+      <!-- End Features Section -->
+
+ 
+  <!-- ======= Footer ======= -->
+  <footer id="footer" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="500">
+
+    <div class="footer-newsletter">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <h4>Our Newsletter</h4>
+            <p>Subscribe to receive updates on digital privacy!</p>
+          </div>
+          <div class="col-lg-6">
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Subscribe">
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h4>Contact Us</h4>
+            <p>
+              A108 Adam Street <br>
+              New York, NY 535022<br>
+              United States <br><br>
+              <strong>Phone:</strong> +1 5589 55488 55<br>
+              <strong>Email:</strong> info@example.com<br>
+            </p>
+
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-info">
+            <h3>About Moderna</h3>
+            <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
+            <div class="social-links mt-3">
+              <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+              <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+              <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+              <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Privacy Made Plain</span></strong>. All Rights Reserved
+        <br><br>
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/free-bootstrap-template-corporate-moderna/ -->
+        <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> -->
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
